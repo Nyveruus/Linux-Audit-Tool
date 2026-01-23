@@ -1,0 +1,1 @@
+[INFO] Detected distro: Kali GNU/Linux Rolling
