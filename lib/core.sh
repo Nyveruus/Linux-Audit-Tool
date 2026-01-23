@@ -1,5 +1,5 @@
 readonly SCRIPT_NAME="lat"
-readonly SCRIPT_VERSION="1.0"
+readonly SCRIPT_VERSION="v1.0.0"
 
 readonly RESET="\033[0m"
 readonly BLUE="\033[34m"
