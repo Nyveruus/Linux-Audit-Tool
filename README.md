@@ -2,7 +2,7 @@
 
 ## Description:
 
-LAT is a CLI auditing and hardening tool, exclusively written in Bash designed for Debian-based Linux distributions. It is tested on Debian.
+LAT is a CLI auditing and hardening tool, exclusively written in Bash for Debian-based Linux distributions. It is tested on Debian.
 
 The goal of LAT is to audit the security of your system, based on the findings of several "check" functions of four categories: accounts, password quality and aging policies, ssh config, and important permissions.
 
