@@ -2,6 +2,10 @@
 
 backup_src="/home/"
 backup_mount="/mnt/backup"
+if [[ ! -e "$backup_mount" ]]; then
+    echo -e "backup point not accesible, aborting"
+    exit 1
+fi
 backup_dest="$backup_mount/current"
 current_date=$(date +%Y-%m-%d)
 log_path="$backup_mount/logs"
